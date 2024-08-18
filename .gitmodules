@@ -1,3 +1,6 @@
 [submodule "my_plugins/YouCompleteMe"]
 	path = my_plugins/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe.git
+[submodule "my_plugins/ale"]
+	path = my_plugins/ale
+	url = https://github.com/dense-analysis/ale.git
