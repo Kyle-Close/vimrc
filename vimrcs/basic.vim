@@ -50,6 +50,12 @@ nnoremap O :execute "normal! O"<CR>
 set clipboard+=unnamedplus
 set clipboard+=unnamed
 
+" Enable linting while you type
+let g:ale_lint_on_text_changed = 'always'
+
+" Enable linting on file save
+let g:ale_lint_on_save = 1
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
