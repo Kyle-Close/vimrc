@@ -26,6 +26,25 @@
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => My Settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Map jj to exit insert mode
+inoremap jj <Esc>
+
+" Enable line numbers
+set number
+
+" Enable relative line numbers
+set relativenumber
+
+" Give me a vertical line when in insert mode
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
+
+" Don't go into insert mode when adding lines with o
+nnoremap o :execute "normal! o"<CR>
+nnoremap O :execute "normal! O"<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
