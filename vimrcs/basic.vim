@@ -29,6 +29,8 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => My Settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" set signcolumn=yes
+
 " Map jj to exit insert mode
 inoremap jj <Esc>
 
@@ -200,7 +202,8 @@ set ffs=unix,dos,mac
 set nobackup
 set nowb
 set noswapfile
-
+set undodir=~/.vim_runtime/temp_dirs/undodir
+set undofile
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
