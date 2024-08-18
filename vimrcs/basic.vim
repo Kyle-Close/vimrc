@@ -46,6 +46,10 @@ let &t_EI = "\e[2 q"
 nnoremap o :execute "normal! o"<CR>
 nnoremap O :execute "normal! O"<CR>
 
+" Use the * register (primary selection) for all yank, delete, change, and put operations
+set clipboard+=unnamedplus
+set clipboard+=unnamed
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
