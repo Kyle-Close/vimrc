@@ -31,33 +31,6 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " set signcolumn=yes
 
-" Map jj to exit insert mode
-inoremap jj <Esc>
-
-" Enable line numbers
-set number
-
-" Enable relative line numbers
-set relativenumber
-
-" Give me a vertical line when in insert mode
-let &t_SI = "\e[6 q"
-let &t_EI = "\e[2 q"
-
-" Don't go into insert mode when adding lines with o
-nnoremap o :execute "normal! o"<CR>
-nnoremap O :execute "normal! O"<CR>
-
-" Use the * register (primary selection) for all yank, delete, change, and put operations
-set clipboard+=unnamedplus
-set clipboard+=unnamed
-
-" Enable linting while you type
-let g:ale_lint_on_text_changed = 'always'
-
-" Enable linting on file save
-let g:ale_lint_on_save = 1
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -77,7 +50,7 @@ au FocusGained,BufEnter * silent! checktime
 let mapleader = ","
 
 " Fast saving
-nmap <leader>w :w!<cr>
+" nmap <leader>w :w!<cr>
 
 " :W sudo saves the file
 " (useful for handling the permission-denied error)
