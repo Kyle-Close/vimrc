@@ -13,3 +13,6 @@
 [submodule "my_plugins/vim-livedown"]
 	path = my_plugins/vim-livedown
 	url = https://github.com/shime/vim-livedown.git
+[submodule "my_plugins/vimwiki"]
+	path = my_plugins/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
