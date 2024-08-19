@@ -4,3 +4,6 @@
 [submodule "my_plugins/ale"]
 	path = my_plugins/ale
 	url = https://github.com/dense-analysis/ale.git
+[submodule "my_plugins/coc.nvim"]
+	path = my_plugins/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
