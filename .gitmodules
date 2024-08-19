@@ -10,3 +10,6 @@
 [submodule "my_plugins/gruvbox"]
 	path = my_plugins/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
+[submodule "my_plugins/vim-livedown"]
+	path = my_plugins/vim-livedown
+	url = https://github.com/shime/vim-livedown.git
