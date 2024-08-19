@@ -7,3 +7,6 @@
 [submodule "my_plugins/coc.nvim"]
 	path = my_plugins/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
+[submodule "my_plugins/gruvbox"]
+	path = my_plugins/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
